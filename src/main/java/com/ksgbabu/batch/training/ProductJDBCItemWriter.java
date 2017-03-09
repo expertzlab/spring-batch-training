@@ -1,5 +1,6 @@
-package com.ksgbabu.batch.training.domain;
+package com.ksgbabu.batch.training;
 
+import com.ksgbabu.batch.training.domain.Product;
 import org.springframework.batch.item.ItemWriter;
 import org.springframework.jdbc.core.JdbcTemplate;
 

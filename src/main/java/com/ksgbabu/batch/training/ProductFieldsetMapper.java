@@ -1,5 +1,6 @@
-package com.ksgbabu.batch.training.domain;
+package com.ksgbabu.batch.training;
 
+import com.ksgbabu.batch.training.domain.Product;
 import org.springframework.batch.item.file.mapping.FieldSetMapper;
 import org.springframework.batch.item.file.transform.FieldSet;
 import org.springframework.validation.BindException;
