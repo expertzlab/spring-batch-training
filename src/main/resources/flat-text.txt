@@ -1,6 +1,6 @@
 PRODUCT_ID,NAME,DESCRIPTION,PRICE
 PR....410,BlackBerry 8100 Pearl,A cell phone,124.60
 PR....411,Sony Ericsson W810i,Yet another cell phone!,139.45
-PR....412,Samsung MM-A900M Ace,A cell phone,97.80
+PR....412,Samsung MM-A900M Ace,A cell phone,97,80
 PR....413,Toshiba M285-E 14,A cell phone,166.20
 PR....414,Nokia 2610 Phone,A cell phone,145.50

@@ -22,7 +22,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  */
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = {"/test-bean.xml"})
+@ContextConfiguration(locations = {"/batch.xml","/test-bean.xml"})
 public class ImportProductsIntegrationTest {
 
     @Autowired
@@ -41,7 +41,7 @@ public class ImportProductsIntegrationTest {
         );
         jobLauncher.run(job, new JobParametersBuilder(
         ).addString("","").toJobParameters());
-        int nbOfNewProducts = 6;
+        int nbOfNewProducts = 5;
         Assert.assertEquals(
                 initial+nbOfNewProducts, jdbcTemplate.queryForInt("select count(*) from product")
         );
